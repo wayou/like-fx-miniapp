@@ -14,10 +14,6 @@ Component({
       observer: "likeChange"
     }
   },
-
-  data: {
-    resourcesReady: false
-  },
   methods: {
     likeChange(newVal, oldVal) {
       if (newVal - oldVal > 0) {
